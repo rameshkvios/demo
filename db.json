@@ -1,14 +1,61 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"id": 1,
+	"tenant_id": 2,
+	"object_type": "FORM",
+	"name": "New Form 321",
+	"description": null,
+	"type": 0,
+	"status": null,
+	"parent_id": null,
+	"user_data": null,
+	"created_date": "2020-06-25 10:14:08",
+	"modified_date": "2020-06-25 12:03:47",
+	"created_by": 2,
+	"last_modified_by": null,
+	"external_id": null,
+	"client_id": null,
+	"display_name": null,
+	"acronym_code": null,
+	"archived": null,
+	"settingmetadata": [{
+		"setting_id": 1,
+		"tenant_id": 2,
+		"meta_key": "samplesmin",
+		"meta_value": "1",
+		"data_type": "INTEGER",
+		"object_type": null,
+		"display_name": "Min"
+	}, {
+		"setting_id": 1,
+		"tenant_id": 2,
+		"meta_key": "samplesmax",
+		"meta_value": "2",
+		"data_type": "INTEGER",
+		"object_type": null,
+		"display_name": "Max"
+	}, {
+		"setting_id": 1,
+		"tenant_id": 2,
+		"meta_key": "formtype",
+		"meta_value": "MULTIPLE",
+		"data_type": "STRING",
+		"object_type": null,
+		"display_name": "Form Type"
+	}, {
+		"setting_id": 1,
+		"tenant_id": 2,
+		"meta_key": "formobject",
+		"meta_value": "TASK TYPE",
+		"data_type": "STRING",
+		"object_type": null,
+		"display_name": "Form Object"
+	}, {
+		"setting_id": 1,
+		"tenant_id": 2,
+		"meta_key": "formjson",
+		"meta_value": "[{'type':'autocomplete','required':false,'label':'Autocomplete','className':'form-control','name':'autocomplete-1593066806431','access':false,'requireValidOption':false,'values':[{'label':'Option 1','value':'option-1'},{'label':'Option 2','value':'option-2'},{'label':'Option 3','value':'option-3'}]},{'type':'number','required':false,'label':'Number','className':'form-control','name':'number-1593066808733','access':false,'value':'4'}]",
+		"data_type": "STRING",
+		"object_type": null,
+		"display_name": "Form JSON"
+	}]
 }
